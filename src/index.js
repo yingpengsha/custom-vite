@@ -1,9 +1,6 @@
-import {createApp, h} from 'vue'
+import {createApp} from 'vue'
+import App from './App.vue'
 
-const app = createApp({
-  render() {
-    return h('div', 'Hello, It\'s my Vite!')
-  }
-}).mount('#app')
+const app = createApp(App).mount('#app')
 
 export default app
